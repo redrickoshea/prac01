@@ -21,7 +21,7 @@ public class Summation {
 
 	/* Method to calculate the sum */
 	public void add() {
-		for (short index = START; index < END; index++) {
+		for (short index = START; index <= END; index++) {
 			total += index;
 		}
 	}
